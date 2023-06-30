@@ -1,0 +1,88 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Estilos das seções */
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos das experiências profissionais */
+  article {
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Outros estilos */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media queries para tornar o layout responsivo */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+  
+    h4 {
+      font-size: 14px;
+    }
+  }
+  
